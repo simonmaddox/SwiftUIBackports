@@ -120,8 +120,6 @@ struct ToolbarModifier: ViewModifier {
         }
     }
 
-    @Namespace private var namespace
-
     func body(content: Content) -> some View {
         content
             .navigationBarItems(leading: leading, trailing: trailing)
